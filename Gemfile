@@ -24,6 +24,7 @@ gem 'jbuilder', '~> 2.0'
 gem 'sdoc', '~> 0.4.0', group: :doc
 
 gem 'bootstrap-sass', '~> 3.3.5.1'
+gem 'rails_12factor'
 
 gem 'devise', '~> 3.5.2'
 
@@ -56,6 +57,7 @@ end
 
 group :production do 
   gem 'pg'
+
 end 
 
 
